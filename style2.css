@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+section {
+  width: 100%;
+  height: auto;
+  background: #010B41;
+}
+.bg-lateral{
+    width: 298px; 
+    height: auto;
+    background: #10035F;
+}
+.bg-white{
+    border: 1px solid #0DA8FF;
+    width: 98.7vw;
+
+}
+.salas{
+    margin-left: 5vw;
+    background: none;
+    border: none;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 75px;
+    background: linear-gradient(80deg, #0d41ff, #6200ff, #630ed3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transpar
+}
+.bg-h3{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #2A7BFF;
+    }
+    .sair{
+        font-family: 'Kanit';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 48px;
+color: #0DC5FF;
+
+    }
+    .bg-card{
+        margin-left: 5vw;
+        width:auto;
+height: 120px;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .bg-text{
+        font-family: 'Kanit';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 72px;
+color: #8321FF;
+
+    }
+    .bg-text2{
+    font-family: 'Kanit';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 42px;
+color: #2A7BFF;
+margin-bottom: 6vh;
+}
+
+.card-a{ margin-left: 2vw;}
+@media only screen and (max-width: 768px) {
+    .bg-lateral {
+      width: 100%;
+      height: auto;
+    }
+    
+    .bg-white {
+      width: 100%;
+    }
+    
+    .salas {
+      font-size: 10vw;
+      line-height: 15vw;
+    }
+    
+    .bg-h3 {
+      font-size: 4vw;
+      line-height: 7.2vw;
+    }
+    
+    .sair {
+      font-size: 6vw;
+      line-height: 10.8vw;
+    }
+    
+    .bg-card {
+      width: 90%;
+      height: auto;
+    }
+    
+    .bg-text {
+      font-size: 8vw;
+      line-height: 14.4vw;
+    }
+    
+    .bg-text2 {
+      font-size: 4vw;
+      line-height: 8.4vw;
+    }
+    
+    .card-a {
+      margin-left: 5vw;
+    }
+  }

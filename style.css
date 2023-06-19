@@ -79,27 +79,29 @@ input {
     }}
 
 @media (max-width: 768px) {
-   
+  .img-fluid{
+    margin-top: 6vh;
+  }
   input {
-    width: 70%;
-    max-width: 80%;
+    width: 50%;
+    max-width: 70%;
   }
 
   .text-box {
-    width: 70%;
-    max-width: 80%;
+    width: 60%;
+    max-width: 70%;
   }
 
   .entrar {
-    width: 70%;
-    max-width: 80%;
+    width: 60%;
+    max-width: 70%;
   }
 }
 
 @media (max-width: 480px) {
   input {
-    width: 90%;
-    max-width: 80%;
+    width: 40%;
+    max-width: 60%;
   }
 
   .text-box {
